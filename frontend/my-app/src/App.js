@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="responses">
+      <div className={`responses ${responses.length > 0 ? 'withScroll' : ''}`}>
         {welcomeMessage && (
           <div className="welcomeMessage">
             <p>{welcomeMessage}</p>

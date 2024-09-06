@@ -26,12 +26,15 @@ body{
 
 .responses{
   overflow: hidden;
-  overflow-y: auto;
   scroll-behavior: smooth;
   width: 100%;
   max-width: 80rem;
   height: calc(100vh - 17rem);
 
+}
+
+.withScroll{
+  overflow-y: auto;
 }
 
 .response{
